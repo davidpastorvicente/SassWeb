@@ -1,0 +1,38 @@
+//Variables
+
+$main: #6600cc
+$second: #cc66ff
+$dark: #333
+$light: #e6f2ff
+
+//Mixins
+
+=shape($height, $width, $bg, $color, $rad)
+  height: $height
+  width: $width
+  background-color: $bg
+  color: $color
+  border-radius: $rad
+
+//Styles
+
+body
+  background-color: $light
+
+h1
+  text-align: center
+  padding-top: 20px
+
+section
+  width: 780px
+  margin: auto
+  padding: 20px
+  background: $second
+  color: $dark
+  border-radius: 7px
+  position: relative
+  z-index: -2
+
+.thumb1
+  +shape(120px, 120px, $dark, $light, 10%)
+  margin: 0 250px -90px

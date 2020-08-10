@@ -1,0 +1,28 @@
+body {
+  background-color: #e6f2ff;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+section {
+  width: 780px;
+  margin: auto;
+  padding: 20px;
+  background: #cc66ff;
+  color: #333;
+  border-radius: 7px;
+  position: relative;
+  z-index: -2;
+}
+
+.thumb1 {
+  height: 120px;
+  width: 120px;
+  background-color: #333;
+  color: #e6f2ff;
+  border-radius: 10%;
+  margin: 0 250px -90px;
+}
