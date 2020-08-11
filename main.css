@@ -26,3 +26,50 @@ section {
   border-radius: 10%;
   margin: 0 250px -90px;
 }
+
+.thumb2 {
+  height: 100px;
+  width: 100px;
+  background-color: #cc66ff;
+  color: #cc66ff;
+  border-radius: 50%;
+  margin: -50px 760px;
+  border: 2px solid #333;
+}
+
+.btn-1 {
+  padding: 15px 20px;
+  border-radius: 8px;
+  background-color: #6600cc;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.btn-1:hover {
+  background-color: #9933ff;
+}
+
+.btn-2 {
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.btn-2:hover {
+  background-color: #9933ff;
+}
+
+.btn-2:hover {
+  background-color: #330066;
+}

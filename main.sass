@@ -14,6 +14,19 @@ $light: #e6f2ff
   color: $color
   border-radius: $rad
 
+=btn($pad, $rad, $bg, $color)
+  padding: $pad
+  border-radius: $rad
+  background-color: $bg
+  color: $color
+  border-width: 0
+  border-style: none
+  cursor: pointer
+  display: block
+  margin: auto
+  &:hover
+    background-color: lighten($main, 20%)
+
 //Styles
 
 body
@@ -36,3 +49,17 @@ section
 .thumb1
   +shape(120px, 120px, $dark, $light, 10%)
   margin: 0 250px -90px
+
+.thumb2
+  +shape(100px, 100px, $second, $second, 50%)
+  margin: -50px 760px
+  border: 2px solid $dark
+
+.btn-1
+  +btn(15px 20px, 8px, $main, white)
+
+.btn-2
+  +btn(30px, 50%, $dark, white)
+  font-size: 2rem
+  &:hover
+    background-color: darken($main, 20%)
